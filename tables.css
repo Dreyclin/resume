@@ -1,0 +1,20 @@
+.table-elem:hover{
+    background-color: blue;
+    cursor: url(img/flower.svg), pointer;
+}
+
+.table-elem:active{
+    background-color: green;
+}
+
+.table-elem__last:hover{
+    background-color: yellow;
+    transition: 2s;
+    cursor: url(img/flower.svg), pointer;
+
+}
+
+.table-elem__last:active{
+    background-color: red;
+    transition: 2s;
+}
